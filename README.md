@@ -52,6 +52,8 @@
  
  
  
+ 
+ 
  Finally, the URL is handed over to the Scrapy script which took care for clickling on each result and extracted the following information:
  *
  
