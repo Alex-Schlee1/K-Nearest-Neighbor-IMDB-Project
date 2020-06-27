@@ -50,13 +50,18 @@
  The following video highlights how the Selenium scraper behaves by wrtiting the mentioned instructions:
  
  
- <a href="{https://drive.google.com/file/d/1ObrW8b5fYBRe9By8De7_JzaGgIpnP-Md/view}" title="Link Title"><img src="{https://i.ytimg.com/vi/2cevbhEqQF4/maxresdefault.jpg}" alt="Alternate Text" /></a>
+ 
  
  
  
  Finally, the URL is handed over to the Scrapy script which took care for clickling on each result and extracted the following information:
- *
+ * movie title
+ * movie year
+ * movie rating
+ * movie rating count
+ * movie genre
  
+ <img src='./images/image2.png' width=600>
  
  
  
