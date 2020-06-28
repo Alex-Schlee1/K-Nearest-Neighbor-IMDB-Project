@@ -38,7 +38,7 @@
 The relevant data was extracted in two steps. In the first step I wrote a script by using selenium so that specific steps were completed automatically when the script ran.
 In detail, the selenium script exists of the following instructions:
  
-   * Go to Google.com
+  * Go to Google.com
  * Search for 'IMDB' and click on the first result
  * Find the dropdown menu and click on the 'Advanced Search' button
  * Select 'Feature Film'
@@ -72,9 +72,25 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
  
  
  
+ ### Output in pandas after scraping (first 5 entries):
  
+  <img src='./images/image4.PNG' width=600>
+ 
+ 
+ # Part 2- Data Cleaning and Feature Engineering
+ 
+ After scraping the data and storing it in csv and pandas, I had to do some cleaning and modifying steps like:
+ * remove unnecessary string elements
+ * convert particular columns to integers and floats to make it machine readable 
+ * In order to be able to create distance metrices between the movies, we need to normalize the rating counts. As a result we get back a value between '0' and '1'. '1' means that the movie has the highest rating count whereas a '0' expresses that a given movie received the smallest amount of rating compared to all the other movies.
+  <img src='./images/image5.PNG' width=600>
+ * create columns for each genre by extracting information from the genre column('1' = movie falls into a specific genre, '0' = movie does not fall into a specific genre). 
 
+The following snippet hightlights that the movie 'Guardians of the Galaxy' falls into the genres 'Action', 'Adventure', 'Comedy'
 
+  <img src='./images/image6.PNG' width=600>
+  
+  
  
  
 
