@@ -6,7 +6,7 @@
     + [Credits](#credits)
     + [Project Goal and procedure](#project-goal-and-procedure)
     + [Code and Resources](#code-and-resources)
-    + [Part 1- Scraping Data using Scrapy](#part-1--scraping-data-using-scrapy)
+    + [Part 1- Scraping Data using Selenium and Scrapy](#part-1--scraping-data-using-selenium-and-scrapy)
     + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
     + [Part 3- Exploratory Data Analysis](#part-3--exploratory-data-analysis)
     + [Part 4- Model Building](#part-4--model-building)
