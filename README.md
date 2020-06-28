@@ -86,7 +86,7 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
 
 #### The following snippet hightlights that the movie 'Guardians of the Galaxy' falls into the genres 'Action', 'Adventure', 'Comedy':
 
-  <img src='./images/image6.PNG' width=600>
+  <img src='./images/image6.PNG' width=700>
   
   
  
