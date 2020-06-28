@@ -47,7 +47,7 @@ In detail, the selenium script exists of the following instructions:
  * Select just color movies
  * Select just english speaking movies
  
-If you want to see how the Selenium scraper behaves by executing the mentioned instructions, just click on the icon below (you will be redirected to Google Drive- make sure you watch the video with the highest resolution :
+If you want to see how the Selenium scraper behaves by executing the mentioned instructions, just click on the icon below (you will be redirected to Google Drive- make sure you watch the video with the highest resolution) :
  
 
  
