@@ -48,11 +48,13 @@
  * Select just color movies
  * Select just english speaking movies
  
- The following video highlights how the Selenium scraper behaves by executing the mentioned instructions (you will be redirected to Google Drive- make sure you watch the video with the highest resolution :
+If you want to see how the Selenium scraper behaves by executing the mentioned instructions, just click on the icon below (you will be redirected to Google Drive- make sure you watch the video with the highest resolution :
  
 
  
-[<img src='./images/image3.PNG' width=400>](https://drive.google.com/file/d/1ObrW8b5fYBRe9By8De7_JzaGgIpnP-Md/view)
+[<img src='./images/image3.PNG' width=300>](https://drive.google.com/file/d/1ObrW8b5fYBRe9By8De7_JzaGgIpnP-Md/view)
+
+
  
  Finally, the URL is handed over to the Scrapy script which took care for clickling on each result and extracted the following information:
  * movie title
