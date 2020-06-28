@@ -10,8 +10,6 @@
     + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
     + [Part 3- Exploratory Data Analysis](#part-3--exploratory-data-analysis)
     + [Part 4- Model Building](#part-4--model-building)
-  
-    + [Part 6- Project Limitation](#part-6--project-limitation)
 
 <img src='./images/image1.jpg' width=600>
 
