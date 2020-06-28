@@ -57,7 +57,7 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
 
 
  
- Finally, the URL is handed over to the Scrapy script which took care for clickling on each result and extracted the following information:
+ Finally, the URL is handed over to the **Scrapy** script which took care for clickling on each result and extracted the following information:
  * movie title
  * movie year
  * movie rating
