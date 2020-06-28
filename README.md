@@ -20,24 +20,25 @@
  A big thank you goes to [KenJee](https://www.youtube.com/channel/UCiT9RITQ9PW6BhXK0y2jaeg), [Codebasics](https://www.youtube.com/channel/UCh9nVJoWXmFb7sLApWGcLPQ), [Krish Naik](https://www.youtube.com/user/krishnaik06), [Keith Galli](https://www.youtube.com/channel/UCq6XkhO5SZ66N04IcPbqNcw)  and to the whole [Edureka Team](https://www.youtube.com/user/edurekaIN) who put a lot of effort to teach people Data Science, Machine Learning, Statistics and a lot of other related topics for free.
  
  
- ### Project Goal and Procedure
- * Goal: Create a model which can classify similar movies based on the rating and genre information (IMDB) by using the KNN Machine Learning Algorithm
- * Dataset was scraped using Python, Selenium and Scrapy
- * Saved results in a csv file and manipulated and worked with the data using the pandas package
- * Visualization of data using seaborn and matplotlib packages
- * Built a K Nearest Neighbor Model
+### Project Goal and Procedure
+* Goal: Create a model which can classify similar movies based on the rating and genre information (IMDB) by using the KNN Machine Learning Algorithm
+* Dataset was scraped using Python, Selenium and Scrapy
+* Saved results in a csv file and manipulated and worked with the data using the pandas package
+* Visualization of data using seaborn and matplotlib packages
+* Built a K Nearest Neighbor Model
  
- ### Code and Resources
- * Python Version: 3.7
- * Environment: Visual Studio, Jupyter Notebook
- * Packages: Scrapy, Selenium, Scipy, Matplotlib, Seaborn, Numpy
+### Code and Resources
+* Python Version: 3.7
+* Environment: Visual Studio, Jupyter Notebook
+* Packages: Scrapy, Selenium, Scipy, Matplotlib, Seaborn, Numpy
  
  
- + [Part 1- Scraping Data using Selenium and Scrapy](#part-1--scraping-data-using-selenium-and-scrapy)
- The relevant data was extracted in two steps. In the first step I wrote a script by using selenium so that specific steps were completed automatically when the script ran.
- In detail, the selenium script exists of the following instructions:
  
- * Go to Google.com
+# Part 1- Scraping Data using Selenium and Scrapy
+The relevant data was extracted in two steps. In the first step I wrote a script by using selenium so that specific steps were completed automatically when the script ran.
+In detail, the selenium script exists of the following instructions:
+ 
+   * Go to Google.com
  * Search for 'IMDB' and click on the first result
  * Find the dropdown menu and click on the 'Advanced Search' button
  * Select 'Feature Film'
