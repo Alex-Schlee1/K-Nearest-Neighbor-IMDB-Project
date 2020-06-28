@@ -19,7 +19,7 @@
  
  
 ### Project Goal and Procedure
-* Goal: Create a model which can classify similar movies from [IMDB.com](https://www.imdb.com/)based on the rating and genre information by using the KNN Machine Learning Algorithm
+* Goal: Create a model which can classify similar movies from [IMDB.com](https://www.imdb.com/), based on the rating and genre information by using the KNN Machine Learning Algorithm
 * Dataset was scraped using Python, Selenium and Scrapy
 * Saved results in a csv file and manipulated and worked with the data using the pandas package
 * Visualization of data using seaborn and matplotlib packages
