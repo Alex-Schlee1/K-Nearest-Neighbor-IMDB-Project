@@ -9,7 +9,7 @@
     + [Part 1- Scraping Data using Selenium and Scrapy](#part-1--scraping-data-using-selenium-and-scrapy)
     + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
     + [Part 3- KNN Model Building](#part-3--knn-model-building)
-    + [Part 4- Model Building](#part-4--model-building)
+    
 
 <img src='./images/image1.jpg' width=600>
 
