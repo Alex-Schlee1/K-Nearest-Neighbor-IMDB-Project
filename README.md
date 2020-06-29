@@ -8,7 +8,7 @@
     + [Code and Resources](#code-and-resources)
     + [Part 1- Scraping Data using Selenium and Scrapy](#part-1--scraping-data-using-selenium-and-scrapy)
     + [Part 2- Data Cleaning and Feature Engineering](#part-2--data-cleaning-and-feature-engineering)
-    + [Part 3- Exploratory Data Analysis](#part-3--exploratory-data-analysis)
+    + [Part 3- KNN Model Building](#part-3--knn-model-building)
     + [Part 4- Model Building](#part-4--model-building)
 
 <img src='./images/image1.jpg' width=600>
@@ -88,6 +88,11 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
 
   <img src='./images/image6.PNG' width=700>
   
+ 
+ # Part 3- KNN Model Building
+ 
+ After modifying our scraped dataset from IMDB, the next step is to build a recommendation model which is able to take one particular movie and give back for example 10 movies which are similar, based on the genre and the rating. 
+ 
   
  
  
