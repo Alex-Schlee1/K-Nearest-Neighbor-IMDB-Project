@@ -91,11 +91,29 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
  
  # Part 3- KNN Model Building
  
- After modifying our scraped dataset from IMDB, the next step is to build a recommendation model which is able to take one particular movie and give back for example 10 movies which are similar, based on the genre and the rating. 
+In general, the K-Nearest Neighbours algorithm belongs to the supervised learning domain. That model classifies new data points based on the "distance" to similar or known data. In the daily practice, the KNN algorithm is often used in recommendation systems or in recognition technology. For example, Amazon or Netflix use such algorithms in order to recommend movies, books etc., based on the users preference.
+
+After modifying our scraped dataset from IMDB, the next step is to build a recommendation model which is able to take one particular movie and give back for example 10 movies which are similar, based on the genre and the rating. 
  
-In general, the K-Nearest Neighbours algorithm belongs to the supervised learning domain. That model classifies data points based on similar data. In the daily practice, the KNN algorithm is often used in recommendation systems or in recognition technology. For example, Amazon or Netflix use such algorithms in order to recommend movies, books etc., based on the users preference. 
+ In the first step we define a distance metric between movies based on the meta data (information associated with the movie). Therefore we take a look on the movies genre (while a movie can have more than one genre), on the popularity of a movie (number of people who rated a movie) and on the average rating. In the next step it is necessary to create a separated column for the Movie ID and extract the rating count (how many people rated a specific movie) and the average rating (1-10). 
  
  
+ <img src='./images/image7.PNG' width=700>
+ 
+ Afterwards, the rating information needs to be ,,normalized". Every movie will be ,,normalized" against the range of the most popular and the least popular movie. As a result, we get back a measurement of popularity for each movie (scale= 0 (least popular movie) to 1 (most popular movie)).
+
+In our dataset, the movie ,,The Shawshank Redemption" has the best rating count, whereas the film ,,Liberations: Fighting on Two Fronts in World War II" is the worst rated one:
+
+<img src='./images/image5.PNG' width=700>
+
+
+Next, we need to expand the number of columns in the dataframe by adding the genres (which we scraped from IMDB in the first place) and specify for each movie in what genre category it belongs (remember that a movie can belong to multiple genres).
+The example shows that the movie ,,Guardians of the Galaxy" belongs to the genres Action, Adventure and Comedy. 
+
+<img src='./images/image6.PNG' width=700>
+
+
+
  
 
  
