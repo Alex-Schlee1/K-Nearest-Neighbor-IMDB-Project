@@ -114,7 +114,7 @@ The example shows that the movie ,,Guardians of the Galaxy" belongs to the genre
 
 After that, we build a dictionary, where Movie IDs will be mapped to the name, list of genres, popularity score (scale 0-1) and the average rating:
 
-<img src='./images/image8.PNG' width=600>
+<img src='./images/image8.PNG' width=700>
 
 If you take a look inside the code, you will see what each genre corresponds to. For the purpose of our research it is not that important since we try to calculate the distance (vector of genres) to another movie. 
 
