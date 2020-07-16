@@ -98,23 +98,27 @@ After modifying our scraped dataset from IMDB, the next step is to build a recom
  In the first step we define a distance metric between movies based on the meta data (information associated with the movie). Therefore we take a look on the movies genre (while a movie can have more than one genre), on the popularity of a movie (number of people who rated a movie) and on the average rating. In the next step it is necessary to create a separated column for the Movie ID and extract the rating count (how many people rated a specific movie) and the average rating (1-10). 
  
  
- <img src='./images/image7.PNG' width=700>
+ <img src='./images/image7.PNG' width=200>
  
  Afterwards, the rating information needs to be ,,normalized". Every movie will be ,,normalized" against the range of the most popular and the least popular movie. As a result, we get back a measurement of popularity for each movie (scale= 0 (least popular movie) to 1 (most popular movie)).
 
 In our dataset, the movie ,,The Shawshank Redemption" has the best rating count, whereas the film ,,Liberations: Fighting on Two Fronts in World War II" is the worst rated one:
 
-<img src='./images/image5.PNG' width=700>
+<img src='./images/image5.PNG' width=500>
 
 
-Next, we need to expand the number of columns in the dataframe by adding the genres (which we scraped from IMDB in the first place) and specify for each movie in what genre category it belongs (remember that a movie can belong to multiple genres).
-The example shows that the movie ,,Guardians of the Galaxy" belongs to the genres Action, Adventure and Comedy. 
+Next, we need to expand the number of columns in the dataframe by adding the genres (which we scraped from IMDB in the first place) and specify for each movie in what genre category it belongs (remember that a movie can belong to multiple genres). 
+The example shows that the movie ,,Guardians of the Galaxy" belongs to the genres Action, Adventure and Comedy. If a movie falls into a specific genre, the entry will be a "1", otherwise it is a "0".
 
-<img src='./images/image6.PNG' width=700>
+<img src='./images/image6.PNG' width=600>
 
+After that, we build a dictionary, where Movie IDs will be mapped to the name, list of genres, popularity score (scale 0-1) and the average rating:
 
+<img src='./images/image8.PNG' width=600>
 
- 
+If you take a look inside the code, you will see what each genre corresponds to. For the purpose of our research it is not that important since we try to calculate the distance (vector of genres) to another movie. 
+
+Afterwards, its time to calculate a distance score between two movies based on the mentioned criteria.
 
  
 
