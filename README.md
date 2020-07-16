@@ -93,7 +93,8 @@ If you want to see how the Selenium scraper behaves by executing the mentioned i
  
  After modifying our scraped dataset from IMDB, the next step is to build a recommendation model which is able to take one particular movie and give back for example 10 movies which are similar, based on the genre and the rating. 
  
-  
+In general, the K-Nearest Neighbours algorithm belongs to the supervised learning domain. That model classifies data points based on similar data. In the daily practice, the KNN algorithm is often used in recommendation systems or in recognition technology. For example, Amazon or Netflix use such algorithms in order to recommend movies, books etc., based on the users preference. 
+ 
  
  
 
