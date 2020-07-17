@@ -119,6 +119,18 @@ After that, we build a dictionary, where Movie IDs will be mapped to the name, l
 If you take a look inside the code, you will see what each genre corresponds to. For the purpose of our research it is not that important since we try to calculate the distance (vector of genres) to another movie. 
 
 Afterwards, its time to calculate a distance score between two movies based on the mentioned criteria.
+For that part, we use the cosine similarity metric.
 
+For example, the similarity score of the movies "Jurassic Park" and "Inglourious Basterds" is 0.8361. The smaller the distance score, the more similiar two movies are. The mentioned score implicates that these movies are not that similar. Even if the popularity is almost the same (8.3 vs 8.1), the genre difference is the key point here.
+
+<img src='./images/image9.PNG' width=700>
+
+Lets say, we want to find the 8 nearest neighbors of the movie "Django Unchained".
+As a result, we get back the following 8 movies and an average rating of 8.35
+
+<img src='./images/image10.PNG' width=700>
+
+# Model Limitation
+As a next step, a productionization of this model can be considered. That would allow users to choose their desired movie and get back the most similar ones, without the need of working with the code.
  
 
